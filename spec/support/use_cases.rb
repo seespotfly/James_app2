@@ -12,3 +12,14 @@ end
 def logout
   click_link "Sign Out"
 end
+
+#def login
+#	visit root_path
+#	click_link "Sign In"
+#	within("#new_user") do
+#		fill_in "Email", :with email
+#   	fill_in "Password", :with => "12345678"
+#    	fill_in "Password confirmation", :with => "12345678"
+#    	click_button "Sign In"
+#    end
+#end
