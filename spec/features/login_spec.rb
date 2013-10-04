@@ -82,5 +82,7 @@ describe "Logging in" do
       expect(page).to have_content("successfully")
     end
   end
+  
+
 
 end
